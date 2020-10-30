@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background-color: #191919;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 10vh;
+  background-color: rgb(229, 9, 20);
+  color: white;
+}
+
+.brand {
+  font-size: 60px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+
+  .btn {
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: rgb(229, 9, 20);
+    color: #fff;
+    margin: 7px;
+    cursor: pointer;
+    font-size: larger;
+  }
+}
+
+.searchForm {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0px;
+
+  .search {
+    width: 40vw;
+    height: 4vh;
+    border-radius: 4px;
+    background-color: #141414;
+    border-style: none;
+    color: white;
+    font-size: large;
+    padding-left: 10px;
+  }
+}
+
+.movies,
+.tv {
+  .container {
+    align-content: center;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    padding: 0% 2%;
+    display: flex;
+    flex-wrap: wrap;
+
+    .poster .poster__img {
+      display: flex;
+      flex-wrap: wrap;
+
+      :hover {
+        opacity: 0.5;
+        transition: 0.5s;
+        cursor: pointer;
+      }
+
+      img {
+        border-radius: 5px;
+        width: 450px;
+        height: 650px;
+        margin: 20px;
+      }
+    }
+
+    h1,
+    h2,
+    p {
+      color: white;
+    }
+  }
+}
+
+.cardImg {
+  width: 450px;
+  height: 650px;
+}
+
+.movieInfo,
+.tvInfo {
+  display: flex;
+  flex-wrap: wrap;
+  color: white;
+
+  .infoContainer {
+    p {
+      padding: 10px 0px;
+    }
+  }
+
+  img {
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+
+  .backBtn {
+    margin-top: 5px;
+    width: 150px;
+    height: 10px;
+    float: left;
+  }
+}
+
+.tab-list-item {
+  display: inline-block;
+  list-style: none;
+  margin-bottom: -1px;
+  padding: 0.5rem 0.75rem;
+  color: #fff;
+  cursor: pointer;
+}
+
+.tab-list-active {
+  background-color: #141414;
+  border: #141414;
+  border-width: 1px 1px 0 1px;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.tabs {
+  padding-top: 10px;
+}

@@ -1,0 +1,185 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background-color: #191919;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 10vh;
+  background-color: #e50914;
+  color: white;
+}
+
+.brand {
+  font-size: 60px;
+}
+
+.buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 5px;
+}
+
+.buttons .btn {
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #e50914;
+  color: #fff;
+  margin: 7px;
+  cursor: pointer;
+  font-size: larger;
+}
+
+.searchForm {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 20px 0px;
+}
+
+.searchForm .search {
+  width: 40vw;
+  height: 4vh;
+  border-radius: 4px;
+  background-color: #141414;
+  border-style: none;
+  color: white;
+  font-size: large;
+  padding-left: 10px;
+}
+
+.movies .container,
+.tv .container {
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-item-align: center;
+      align-self: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0% 2%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.movies .container .poster .poster__img,
+.tv .container .poster .poster__img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.movies .container .poster .poster__img :hover,
+.tv .container .poster .poster__img :hover {
+  opacity: 0.5;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.movies .container .poster .poster__img img,
+.tv .container .poster .poster__img img {
+  border-radius: 5px;
+  width: 450px;
+  height: 650px;
+  margin: 20px;
+}
+
+.movies .container h1,
+.movies .container h2,
+.movies .container p,
+.tv .container h1,
+.tv .container h2,
+.tv .container p {
+  color: white;
+}
+
+.cardImg {
+  width: 450px;
+  height: 650px;
+}
+
+.movieInfo,
+.tvInfo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  color: white;
+}
+
+.movieInfo .infoContainer p,
+.tvInfo .infoContainer p {
+  padding: 10px 0px;
+}
+
+.movieInfo img,
+.tvInfo img {
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.movieInfo .backBtn,
+.tvInfo .backBtn {
+  margin-top: 5px;
+  width: 150px;
+  height: 10px;
+  float: left;
+}
+
+.tab-list-item {
+  display: inline-block;
+  list-style: none;
+  margin-bottom: -1px;
+  padding: 0.5rem 0.75rem;
+  color: #fff;
+  cursor: pointer;
+}
+
+.tab-list-active {
+  background-color: #141414;
+  border: #141414;
+  border-width: 1px 1px 0 1px;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.tabs {
+  padding-top: 10px;
+}
+/*# sourceMappingURL=index.css.map */
