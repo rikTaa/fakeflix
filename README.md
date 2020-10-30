@@ -6,7 +6,7 @@ App name: FAKEFLIX
 
 ## Usage
 
-App is hosted on Netlify -
+App is hosted on Netlify - https://fakeflix.netlify.app/
 
 # Note
 
